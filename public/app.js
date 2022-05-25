@@ -35,21 +35,6 @@ URLFromFiles(["processor.js", "../index.js"]).then((e) => {
         },
       });
       n.connect(ctx.destination);
-
-      const freq = $(".freq")[0];
-      const label = $(".freqLabel")[0];
-
-      freq.addEventListener("input", (e) => {
-        label.innerText = e.target.value;
-        frequency = e.target.value;
-      });
-      const amp = $(".amp")[0];
-      const ampLabel = $(".ampLabel")[0];
-
-      amp.addEventListener("input", (e) => {
-        ampLabel.innerText = e.target.value;
-        paramWriter.enqueue_change(0, e.target.value);
-      });
     });
   }
 });
