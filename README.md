@@ -1,3 +1,12 @@
+# PixiVisor clone on web 
+
+Naoto Hieda
+
+to use: `npm i` and `node server.js`
+
+
+-- original document --
+
 # `ringbuf.js`
 
 [![test](https://github.com/padenot/ringbuf.js/actions/workflows/test.yml/badge.svg)](https://github.com/padenot/ringbuf.js/actions/workflows/test.yml)
